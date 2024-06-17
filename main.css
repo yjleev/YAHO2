@@ -170,3 +170,93 @@ body {
         transform: scale(0);
     }
 }
+.wood1 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 25vh;
+    transform: rotate(6deg);
+    margin-left: -0.7vw;
+}
+.wood2 {
+    position: fixed;
+    width: 1.8vw;
+    height: 40vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 38vh;
+}
+.wood3 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 75vh;
+    transform: rotate(-7deg);
+    margin-left: -0.7vw;
+}
+.wood4 {
+    position: fixed;
+    width: 5vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 85vh;
+    transform: rotate(-20deg);
+    margin-left: -1.0vw;
+}
+.leaf1 {
+    position: fixed;
+    width: 20vw;
+    height: 16vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf2 {
+    position: fixed;
+    width: 17vw;
+    height: 22vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf3 {
+    position: fixed;
+    width: 12vw;
+    height: 26vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf4 {
+    position: fixed;
+    width: 13vw;
+    height: 10vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.nav {
+    position: fixed;
+    width: 12.5vw;
+    height: 100vh;
+    background-color: green;
+    margin-left: 87.5vw;
+    display: flex;
+    flex-direction: column;
+}
+.nav5 {
+    display: block;
+    width: 12.5vw;
+    height: 15vh;
+    line-height: 15vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.nav5:hover {
+    color: beige;
+    background-color: black;
+}
+.nav1 {
+    margin-top: 15vh;
+}
