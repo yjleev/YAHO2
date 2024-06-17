@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: beige;
+}
+.bg {
+    width: 65vw;
+    height: 95vh;
+    margin: 2.5vh 0vw 0vh 17.5vw;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+    position: fixed;
+}
+.map {
+    width: 65vw;
+    height: 95vh;
+}
+.ani {
+    width: 65vw;
+    height: 95vh;
+    margin: 2.5vh 0vw 0vh 17.5vw;
+    position: fixed;
+}
+.ani6 {
+    width: 20vw;
+    height: 40vh;
+    position: fixed;
+}
+.ani6 > div {
+    width: 10vw;
+    height: 14vh;
+    background-color: green;
+    border-radius: 25px;
+    margin:  0 auto;
+}
+.ani6 > section {
+    width: 2.8vw;
+    height: 6vh;
+    margin:  0 auto;
+    display: flex;
+}
+.ani6 > section > div {
+    width: 1.4vw;
+    height: 6vh;
+    background: linear-gradient(70deg, transparent 50%, rgb(122, 66, 31) 0) left, linear-gradient(70deg, transparent 50%, rgb(122, 66, 31) 0) right;
+}
+.ani6 > section > section {
+    width: 1.4vw;
+    height: 6vh;
+    background: linear-gradient(-70deg, transparent 50%,rgb(122, 66, 31) 0) left, linear-gradient(-70deg, transparent 50%, rgb(122, 66, 31) 0) right;
+}
+.ani1 {
+    animation: ani1 15s linear infinite;
+    margin-top: 28vh;
+}
+@keyframes ani1 {
+    0% {
+        transform: scale(0);
+    }
+    5% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.ani2 {
+    animation: ani2 15s linear infinite;
+    margin-top: 7vh;
+    margin-left: 15.5vw;
+}
+@keyframes ani2 {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.ani3 {
+    animation: ani3 15s linear infinite;
+    margin-top: 60vh;
+    margin-left: 18.5vw;
+}
+@keyframes ani3 {
+    0% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(0);
+    }
+    45% {
+        transform: scale(1);
+    }
+    58% {
+        transform: scale(1);
+    }
+    63% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.ani4 {
+    animation: ani4 15s linear infinite;
+    margin-top: 29vh;
+    margin-left: 49vw;
+}
+@keyframes ani4 {
+    0% {
+        transform: scale(0);
+    }
+    58% {
+        transform: scale(0);
+    }
+    63% {
+        transform: scale(1);
+    }
+    77% {
+        transform: scale(1);
+    }
+    82% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.ani5 {
+    animation: ani5 15s linear infinite;
+    margin-top: 50vh;
+    margin-left: 36.75vw;
+}
+@keyframes ani5 {
+    0% {
+        transform: scale(0);
+    }
+    77% {
+        transform: scale(0);
+    }
+    82% {
+        transform: scale(1);
+    }
+    96% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}

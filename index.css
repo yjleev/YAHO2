@@ -1,0 +1,1621 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+}
+.sky {
+    position: fixed;
+    width: 100vw;
+    height: 65vh;
+    background: linear-gradient(10deg, #e6ca64, #dbcc96,rgb(163, 197, 211), rgb(88, 179, 215));
+}
+.lake {
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 65vh;
+    background: linear-gradient(355deg, #222279, #224579, #8a9ce0);
+}
+.floor {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 80vh;
+    background-color: #3d3a3a;
+}
+.end {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: rgba(176, 176, 176, 0.582);
+}
+.indo {
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(205, 137, 94);
+}
+.line {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: rgba(105, 181, 211, 0.797);
+}
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.handrail {
+    width: 100vw;
+    height: 13vh;
+    margin-top: 68vh;
+    position: fixed;
+}
+.rail {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: #252525;
+}
+.bars {
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+}
+.bars > div {
+    width: 1vw;
+    height: 11vh;
+    background-color: #252525;
+}
+.rounds {
+    width: 100vw;
+    height: 0.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.rounds > div {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: #252525;
+    border-radius: 0% 0% 100px 100px;
+}
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.buildings1 {
+    width: 100vw;
+    height: 25vh;
+    position: fixed;
+    margin-top: 35vh;
+    display: flex;
+}
+.struc1 {
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+}
+.struc1 > section {
+    padding-left: 1vw;
+    width: 2.5vw;
+    height: 20vh;
+    margin-top: 5vh;
+    background-color: white;
+    box-shadow: 7px 0px 5px -1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.struc1 > section:last-child() {
+    box-shadow: 0px 0px 0px 0px gray;
+}
+.struc1 > div {
+    width: 2vw;
+    height: 18vh;
+    margin-top: 7vh;
+    background-color: white;
+}
+.window1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgb(63, 63, 141);
+    border-radius: 20%;
+}
+.struc2 {
+    width: 17vw;
+    height: 25vh;
+}
+.struc2 > div {
+    width: 17vw;
+    height: 2vh;
+    margin-top: 8vh;
+    background-color: rgb(47, 36, 9);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc2 > section {
+    width: 17vw;
+    height: 12.5vh;
+    padding-top: 2.5vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.window2 {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #6696b7;
+    border-radius: 15%;
+}
+.struc3 {
+    width: 12vw;
+    height: 25vh;
+}
+.struc3 > div {
+    width: 12vw;
+    height: 3vh;
+    margin-top: 11vh;
+    background-color: rgb(93, 37, 31);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc3 > section {
+    width: 12vw;
+    height: 1vh;
+    background-color: rgb(255, 255, 255);
+}
+.struc3 > article {
+    width: 12vw;
+    height: 9vh;
+    padding-top: 1vh;
+    background-color: rgb(93, 37, 31);
+    display: flex;
+    justify-content: space-around;
+}
+.struc4 {
+    width: 16vw;
+    height: 25vh;
+}
+.struc4 > div {
+    width: 16vw;
+    height: 3vh;
+    margin-top: 9vh;
+    background-color: rgb(35, 17, 6);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc4 > section {
+    width: 16vw;
+    height: 1vh;
+    background-color: rgb(237, 237, 237);
+}
+.struc4 > article {
+    width: 16vw;
+    height: 12vh;
+    background-color: rgb(181, 95, 41);
+    display: flex;
+    justify-content: end;
+}
+.struc4 > article > div {
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.window3 {
+    width: 8vw;
+    height: 1.5vh;
+    border-radius: 1000px 0px 0px 1000px;
+    background-color: #6680b7;
+}
+.struc5 {
+    width: 5vw;
+    height: 25vh;
+}
+.struc5 > div:nth-child(1) {
+    width: 1vw;
+    height: 5vh;
+    background-color: red;
+    background: linear-gradient(-100deg, transparent 60%, rgb(222, 36, 36) 0) right, linear-gradient(100deg, transparent 60%, rgb(202, 48, 48) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 2vw;
+}
+.struc5 > div:nth-child(2) {
+    width: 3vw;
+    height: 4vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 60%, rgb(255, 255, 255) 0) right, linear-gradient(100deg, transparent 60%, rgb(255, 255, 255) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 1vw;
+}
+.struc5 > div:nth-child(3) {
+    width: 5vw;
+    height: 5vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 60%, rgb(235, 7, 7) 0) right, linear-gradient(100deg, transparent 60%, rgb(211, 1, 1) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+    margin-left: 0vw;
+}
+.struc5 > div:nth-child(4) {
+    width: 5vw;
+    height: 9vh;
+    background-color: rgb(222, 220, 220);
+    background: linear-gradient(-100deg, transparent 40%, rgb(242, 240, 240) 0) right, linear-gradient(100deg, transparent 40%, rgb(235, 229, 229) 0) left;
+    background-size: 50% 100%;
+	background-repeat: no-repeat;
+}
+.struc6 {
+    width: 17vw;
+    height: 25vh;
+}
+.struc6 > div {  
+    width: 17vw;
+    height: 2vh;
+    margin-top: 8vh;
+    background-color: rgb(47, 36, 9);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc6 > section {
+    width: 17vw;
+    height: 6.25vh;
+    padding-top: 2.5vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.window4 {
+    width: 3vw;
+    height: 4vh;
+    background-color: #6696b7;
+    border-radius: 20%;
+}
+.struc7 {
+    width: 14vw;
+    height: 25vh;
+}
+.struc7 > div {
+    width: 14vw;
+    height: 3vh;
+    margin-top: 9vh;
+    background-color: rgb(35, 17, 6);
+    border-radius: 1000px 1000px 0px 0px;
+}
+.struc7 > section {
+    width: 14vw;
+    height: 1vh;
+    background-color: rgb(237, 237, 237);
+}
+.struc7 > article {
+    width: 14vw;
+    height: 12vh;
+    background-color: rgb(181, 95, 41);
+    display: flex;
+    justify-content: start;
+}
+.struc7 > article > div {
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.window5 {
+    width: 8vw;
+    height: 1.5vh;
+    border-radius: 0px 1000px 1000px 0px;
+    background-color: #6680b7;
+}
+.section3 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.bridge1 {
+    width: 50vw;
+    height: 8vh;
+    background-color: rgb(219, 219, 140);
+    margin-top: 54vh;
+    transform: rotate(-2.5deg);
+    position: fixed;
+}
+.road1 {
+    width: 50vw;
+    height: 2vh;
+    background-color: rgb(161, 161, 161);
+    box-shadow: 0 10px 6px -6px #777;
+}
+.bars2 {
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bars2 > div {
+    width: 2vw;
+    height: 5vh;
+    background-color: beige;
+    box-shadow: 7px 0px 5px -1px gray;
+}
+.bars2 > div:last-child {
+    box-shadow: 0px 0px 0px 0px white;
+}
+.section4 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.buildings2 {
+    margin-left: 49.7vw;
+    width: 50.3vw;
+    height: 10vh;
+    position: fixed;
+    margin-top: 50vh;
+    display: flex;
+}
+/* .buildings2 > div {
+    display: inline-block;
+} */
+.buildings2 > div:nth-child(1) {
+    width: 12vw;
+    height: 10vh;
+}
+.buildings2 > div:nth-child(1) > div {
+    width: 11vw;
+    height: 1.5vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 60% 60% 0% 0%;
+}
+.buildings2 > div:nth-child(1) > section {
+    width: 11vw;
+    height: 6vh;
+    padding-top: 2vh;
+    background-color: rgb(243, 238, 189);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+.buildings2 > div:nth-child(2) {
+    width: 9vw;
+    height: 10vh;
+    /* background-color: rgb(93, 37, 31); */
+    margin-left: 2vw;
+}
+.buildings2 > div:nth-child(2) > div {
+    width: 7.5vw;
+    height: 4vh;
+    background-color: rgb(220, 208, 179);
+    margin-top: 1vh;
+    margin-left: 0.6vw;
+    border-radius: 100% 100% 0% 0%;
+    position: fixed;
+}
+.buildings2 > div:nth-child(2) > article {
+    width: 4.5vw;
+    height: 1.5vh;
+    background-color: rgba(0, 0, 0, 0.918);
+    position: relative;
+    position: fixed;
+    transform: rotate(-15deg);
+    margin-top: 1vh;
+}
+.buildings2 > div:nth-child(2) > section {
+    width: 4.5vw;
+    height: 1.5vh;
+    background-color: rgba(0, 0, 0, 0.918);
+    position: relative;
+    position: fixed;
+    transform: rotate(15deg);
+    margin-top: 1vh;
+    margin-left: 4.1vw;
+}
+.buildings2 > div:nth-child(2) > aside {
+    width: 7.5vw;
+    height: 1vh;
+    background-color: #ffffff;
+    margin-left: 0.6vw;
+    margin-top: 5vh;
+}
+.buildings2 > div:nth-child(2) > footer {
+    width: 7.5vw;
+    height: 4vh;
+    background-color: rgb(93, 37, 31);
+    margin-left: 0.6vw;
+}
+.buildings2 > div:nth-child(3) {
+    width: 10vw;
+    height: 9vh;
+    background-color: white;
+    margin-left: 5.5vw;
+    padding-top: 1vh;
+    border-radius: 20% 0% 0% 0%;
+    padding-top: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+.buildings2 > div:nth-child(4) {
+    width: 10vw;
+    height: 7vh;
+    padding-top: 3vh;
+    background-color: white;
+    border-radius: 10% 10% 0% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.section5 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.bridge {
+    width: 100vw;
+    height: 7vh;
+    margin-top: 58vh;
+    background-color: silver;
+    position: fixed;
+}
+.road {
+    width: 100vw;
+    height: 2vh;
+    background-color: rgb(80, 80, 80);
+    box-shadow: 0 10px 6px -6px #777;
+}
+.bars1 {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.bars1 > div {
+    width: 2vw;
+    height: 5vh;
+    background-color: rgb(250, 250, 201);
+    box-shadow: 7px 0px 5px -1px gray;
+}
+.cloud1 {
+    position: fixed;
+    width: 20vw;
+    height: 15vh;
+    margin-top: 20vh;
+    margin-left: 3vw;
+    animation: cloud1 8s linear alternate forwards;
+}
+@keyframes cloud1 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(5vw, 2vh);
+    }
+}
+.cloud1 > article {
+    position: fixed;
+    margin-top: 5vh;
+    width: 20vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud1 > aside {
+    position: fixed;
+    margin-top: 7vh;
+    margin-left: 5vw;
+    width: 13vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud1 > section {
+    position: fixed;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    width: 10vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud2 {
+    position: fixed;
+    width: 20vw;
+    height: 15vh;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    animation: cloud2 8s linear alternate forwards;
+}
+@keyframes cloud2 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(5vw, -1vh);
+    }
+}
+.cloud2 > article {
+    position: fixed;
+    margin-top: 5vh;
+    width: 20vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud2 > aside {
+    position: fixed;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    width: 13vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud2 > section {
+    position: fixed;
+    margin-top: 3vh;
+    margin-left: 7vw;
+    width: 10vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud3 {
+    position: fixed;
+    width: 20vw;
+    height: 15vh;
+    margin-top: 15vh;
+    margin-left: 75vw;
+    animation: cloud3 8s linear alternate forwards;
+}
+@keyframes cloud3 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(-5vw, -1vh);
+    }
+}
+.cloud3 > article {
+    position: fixed;
+    margin-top: 5vh;
+    width: 20vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud3 > aside {
+    position: fixed;
+    margin-top: 7vh;
+    margin-left: 5vw;
+    width: 13vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.cloud3 > section {
+    position: fixed;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    width: 10vw;
+    height: 7vh;
+    background-color: #ffffff52;
+    border-radius: 1000px; 
+}
+.moun1 {
+    width: 20vw;
+    height: 15vh;
+    background-color: green;
+    position: fixed;
+    margin-left: 20vw;
+    margin-top: 35vh;
+    background: linear-gradient(-190deg, transparent 50%, rgb(25, 100, 14) 0) left;
+}
+.moun2 {
+    width: 15vw;
+    height: 20vh;
+    background-color: green;
+    position: fixed;
+    margin-left: 40vw;
+    margin-top: 30vh;
+    background: linear-gradient(-200deg, transparent 30%, rgb(25, 100, 14) 0) left;
+}
+.moun2 {
+    width: 15vw;
+    height: 20vh;
+    background-color: green;
+    position: fixed;
+    margin-left: 40vw;
+    margin-top: 30vh;
+    background: linear-gradient(-200deg, transparent 30%, rgb(25, 100, 14) 0) left;
+}
+.moun3 {
+    width: 15vw;
+    height: 20vh;
+    background-color: green;
+    position: fixed;
+    margin-left: 55vw;
+    margin-top: 33vh;
+    background: linear-gradient(-200deg, transparent 30%, rgb(49, 117, 39) 0) right;
+}
+.moun4 {
+    width: 15vw;
+    height: 20vh;
+    background-color: green;
+    position: fixed;
+    margin-left: 70vw;
+    margin-top: 33vh;
+    background: linear-gradient(215deg, transparent 40%, rgb(49, 117, 39) 0) left;
+}
+.moun5 {
+    width: 5.5vw;
+    height: 2vh;
+    background-color:  rgb(49, 117, 39);
+    position: fixed;
+    margin-left: 67.9vw;
+    margin-top: 32.6vh;
+    border-radius: 1000px 1000px 0px 0px;
+}
+.moun6 {
+    width: 20vw;
+    height: 25vh;
+    background-color: rgb(25, 100, 14);
+    position: fixed;
+    margin-left: 54vw;
+    margin-top: 30vh;
+    background: linear-gradient(215deg, transparent 40%, rgb(25, 100, 14) 0) left;
+}
+.moun7 {
+    width: 6vw;
+    height: 2vh;
+    background-color: rgb(25, 100, 14);
+    position: fixed;
+    margin-left: 52.9vw;
+    margin-top: 29.5vh;
+    border-radius: 1000px 1000px 0px 0px;
+}
+.nt {
+    width: 5vw;
+    height: 20vh;
+    position: fixed;
+    margin-left: 62vw;
+    margin-top: 19vh;
+}
+.nt > div {
+    width: 5vw;
+    height: 17vh;
+    display: flex;
+}
+.tos {
+    width: 1vw;
+    height: 17vh;
+}
+.tos > div:nth-child(1) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: red;
+    margin-top: 8vh;
+    border-radius: 70% 70% 0% 0%;
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(2) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(3) {
+    width: 0.4vw;
+    height: 2vh;
+    background-color: red;
+    margin-left: 0.25vw;
+}
+.tos > div:nth-child(4) {
+    width: 0.25vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(12deg);
+    position: fixed;
+    margin-left: 0.12vw;
+}
+.tos > div:nth-child(5) {
+    width: 0.25vw;
+    height: 2vh;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-12deg);
+    position: fixed;
+    margin-left: 0.5vw;
+}
+.tos > div:nth-child(6) {
+    width: 0.25vw;
+    height: 1.5vh;
+    background-color: red;
+    transform: rotate(12deg);
+    position: fixed;
+    margin-top: 1.2vh;
+}
+.tos > div:nth-child(7) {
+    width: 0.25vw;
+    height: 1.7vh;
+    background-color: red;
+    transform: rotate(-12deg);
+    position: fixed;
+    margin-top: 1.2vh;
+    margin-left: 0.62vw;
+}
+.tob {
+    width: 4vw;
+    height: 17vh;
+}
+.tob > div:nth-child(1) {
+    width: 0.1vw;
+    height: 0.9vh;
+    background-color: red;
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(2) {
+    width: 0.1vw;
+    height: 1.1vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(3) {
+    width: 0.1vw;
+    height: 1.2vh;
+    background-color: red;
+    margin-left: 1.95vw;
+}
+.tob > div:nth-child(4) {
+    width: 0.2vw;
+    height: 1.4vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.9vw;
+}
+.tob > div:nth-child(5) {
+    width: 0.2vw;
+    height: 1.4vh;
+    background-color: red;
+    margin-left: 1.9vw;
+}
+.tob > div:nth-child(6) {
+    width: 0.5vw;
+    height: 0.6vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(7) {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(8) {
+    width: 1vw;
+    height: 0.5vh;
+    background-color: rgb(96, 170, 199);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(9) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(10) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(96, 170, 199);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(11) {
+    width: 1.5vw;
+    height: 0.5vh;
+    background-color: rgb(141, 141, 141);
+    margin-left: 1.25vw;
+}
+.tob > div:nth-child(12) {
+    width: 0.5vw;
+    height: 4.5vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(13) {
+    width: 1vw;
+    height: 0.25vh;
+    background-color: rgb(172, 172, 172);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(14) {
+    width: 0.5vw;
+    height: 0.6vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.tob > div:nth-child(15) {
+    width: 1vw;
+    height: 0.25vh;
+    background-color: rgb(172, 172, 172);
+    margin-left: 1.5vw;
+}
+.tob > div:nth-child(16) {
+    width: 0.5vw;
+    height: 2.3vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1.75vw;
+}
+.nt > section {
+    width: 4.3vw;
+    height: 1.5vh;
+    padding-top: 0.2vh;
+    background-color: rgb(196, 175, 83);
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.win {
+    width: 4vw;
+    height: 0.2vh;
+    background-color: rgb(94, 143, 163);
+}
+.shad2 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-top: 77.5vh;
+    margin-left: 9.1vw;
+    display: inline-block;
+    position: fixed;
+}
+.shad3 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 23.3vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad4 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 37.6vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad5 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 51.9vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad6 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 66.2vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad7 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 80.5vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.shad8 {
+    width: 0.9vw;
+    height: 12vh;
+    background-color: #63574a;
+    transform: rotate(-55deg);
+    margin-left: 94.8vw;
+    display: inline-block;
+    position: fixed;
+    margin-top: 77.5vh;
+}
+.bars3 {
+    position: fixed;
+    background-color: #63574a;
+    width: 100vw;
+    height: 2vh;
+    margin-top: 50.6vh;
+}
+.section6 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.leaf1 {
+    position: fixed;
+    width: 20vw;
+    height: 16vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf2 {
+    position: fixed;
+    width: 17vw;
+    height: 22vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf3 {
+    position: fixed;
+    width: 12vw;
+    height: 26vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf4 {
+    position: fixed;
+    width: 13vw;
+    height: 10vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf5 {
+    position: fixed;
+    width: 8vw;
+    height: 16vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 90% 0%;
+}
+.leaf6 {
+    position: fixed;
+    width: 20vw;
+    height: 16vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 80vw;
+}
+.leaf7 {
+    position: fixed;
+    width: 17vw;
+    height: 22vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 83vw;
+}
+.leaf8 {
+    position: fixed;
+    width: 12vw;
+    height: 26vh;
+    background: rgb(0, 123, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 88vw;
+}
+.leaf9 {
+    position: fixed;
+    width: 13vw;
+    height: 10vh;
+    background: rgb(0, 108, 0);
+    border-radius: 0% 0% 0% 90%;
+    margin-left: 87vw;
+}
+.leaf10 {
+    position: fixed;
+    width: 8vw;
+    height: 16vh;
+    background: rgb(0, 108, 0);
+    margin-left: 92vw;
+    border-radius: 0% 0% 0% 90%;
+}
+.wood1 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 25vh;
+    transform: rotate(6deg);
+    margin-left: -0.7vw;
+}
+.wood2 {
+    position: fixed;
+    width: 1.8vw;
+    height: 40vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 38vh;
+}
+.wood3 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 75vh;
+    transform: rotate(-7deg);
+    margin-left: -0.7vw;
+}
+.wood4 {
+    position: fixed;
+    width: 5vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 85vh;
+    transform: rotate(-20deg);
+    margin-left: -1.0vw;
+}
+.wood5 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 25vh;
+    transform: rotate(-6deg);
+    margin-left: 97.7vw;
+}
+.wood6 {
+    position: fixed;
+    width: 2vw;
+    height: 40vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 38vh;
+    margin-left: 98.3vw;
+}
+.wood7 {
+    position: fixed;
+    width: 3vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 75vh;
+    transform: rotate(7deg);
+    margin-left: 97.6vw;
+}
+.wood8 {
+    position: fixed;
+    width: 5vw;
+    height: 20vh;
+    background-color: rgb(116, 51, 24);
+    margin-top: 85vh;
+    transform: rotate(20deg);
+    margin-left: 95.8vw;
+}
+.move1 {
+    position: fixed;
+    width: 15vw;
+    height: 60vh;
+    animation: move1 5s linear forwards;
+}
+@keyframes move1 {
+    0% { transform: translate(2vw, 35vh); }
+    100% { transform: translate(35vw, 35vh); }
+}
+.leg1 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg1 5s linear forwards; 
+    margin-left: 5vw; 
+    margin-top: 20vh;
+}
+.leg1 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg1 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg1 {
+    0% { transform: rotate(10deg);}
+    20% { transform: rotate(-35deg);}
+    40% { transform: rotate(10deg);}
+    60% {transform: rotate(-35deg)}
+    80% { transform: rotate(10deg);;}
+    100% {  transform: rotate(-0deg);}
+}
+.leg2 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg2 5s linear forwards; 
+    margin-left: 6vw; 
+    margin-top: 20vh;
+}
+.leg2 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg2 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+    margin-left: 1vh;
+}
+@keyframes leg2 {
+    0% { transform: rotate(-35deg);}
+    20% { transform: rotate(15deg);}
+    40% { transform: rotate(-35deg);}
+    60% {transform: rotate(15deg);}
+    80% { transform: rotate(-35deg);}
+    100% {  transform: rotate(0deg);}
+}
+.leg3 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg3 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+.leg3 > div {
+    width: 4vw;
+    height: 14vh;
+}
+.leg3 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg3 {
+    0% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    20% { transform: rotate(-30deg); margin-left: 8.5vw; margin-top: 24vh;}
+    40% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    60% {transform: rotate(-30deg); margin-left: 8.5vw; margin-top: 24vh;}
+    80% { transform: rotate(30deg); margin-left: 5vw; margin-top: 25vh;}
+    100% {  transform: rotate(-0deg); margin-left: 5.5vw; margin-top: 24vh;}
+}
+.leg4 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg4 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 7vw;
+}
+.leg4 > div {
+    width: 3vw;
+    height: 14vh;
+}
+.leg4 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+}
+@keyframes leg4 {
+    0% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    20% { transform: rotate(30deg); margin-left: 6vw; margin-top: 25vh;}
+    40% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    60% {transform: rotate(30deg); margin-left: 6vw; margin-top: 25vh;}
+    80% { transform: rotate(-30deg); margin-left: 10vw; margin-top: 24vh;}
+    100% {  transform: rotate(-0deg); margin-left: 7vw; margin-top: 25vh;}
+}
+.body1 {
+    position: fixed;
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(150, 43, 43);
+    margin-left: 4.3vw;
+    border-radius: 20%;
+    margin-top: 13svh;
+}
+.head1 {
+    position: fixed;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(219, 198, 153);
+    margin-left: 5.25vw;
+    margin-top: 3.5vh;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.head1 > div {
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(46, 41, 37);
+}
+.arm1 {
+    position: fixed;
+    width: 1.5vw;
+    height: 15vh;
+    animation: arm1 8s linear forwards; 
+    margin-top: 9vh;
+    margin-left: 6.7vw;
+}
+@keyframes arm1 {
+    0% { transform: rotate(10deg); }
+    12.5% { transform: rotate(-20deg); }
+    25% { transform: rotate(10deg); }
+    37.5% { transform: rotate(-20deg); }
+    50% { transform: rotate(10deg); }
+    62.5% { transform: rotate(-20deg); }
+    72.5% { transform: rotate(-0deg); }
+    77.5% { transform: rotate(-20deg); }
+    82.5% { transform: rotate(-0deg); }
+    90.5% { transform: rotate(-120deg); }
+    96.5% { transform: rotate(-120deg); }
+    100% { transform: rotate(-100deg); }
+}
+.arm1 > div {
+    width: 3vw;
+    height: 7vh;
+}
+.arm1 > section {
+    width: 3vw;
+    height: 8vh;
+    background-color: rgb(119, 35, 35);
+    border-radius: 20%;
+}
+.arm2 {
+    position: fixed;
+    width: 1.5vw;
+    height: 20vh;
+    animation: arm2 8s linear forwards; 
+    margin-top: 11vh;
+    margin-left: 6.7vw;
+}
+.arm2 > div {
+    width: 3vw;
+    height: 9vh;
+}
+.arm2 > section {
+    width: 3vw;
+    height: 11vh;
+    background-color: rgb(119, 35, 35);
+    border-radius: 20%;
+}
+@keyframes arm2 {
+    0% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    12.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    25% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    37.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    50% { transform: rotate(0deg); margin-left: 6vw; margin-top: 14vh}
+    62.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 13vh}
+    72.5% { transform: rotate(-0deg); margin-left: 7vw; margin-top: 13.5vh}
+    77.5% { transform: rotate(-30deg); margin-left: 8vw; margin-top: 12vh}
+    82.5% { transform: rotate(-0deg); margin-left: 7vw; margin-top: 12vh}
+    90.5% { transform: rotate(-120deg); margin-left: 10vw; margin-top: 6vh}
+    92.5% { transform: rotate(-180deg); margin-left: 9vw; margin-top: 3vh}
+    100% { transform: rotate(-140deg); margin-left: 10.5vw; margin-top: 5.5vh}
+}
+.trash1 {
+    position: fixed;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: gray;
+    animation: trash1 8s linear forwards; 
+}
+@keyframes trash1 {
+    0% { margin-left: 6vw; margin-top: 28vh;}
+    12.5% { margin-left: 9.5vw; margin-top: 26vh;}
+    25% { margin-left: 6vw; margin-top: 28vh;}
+    37.5%{ margin-left: 9.5vw; margin-top: 26vh;}
+    50% { margin-left: 6vw; margin-top: 28vh;}
+    62.5% { margin-left: 9.5vw; margin-top: 28vh;}
+    72.5%  { margin-left: 7vw; margin-top: 28vh;}
+    74.5%  { margin-left: 9.5vw; margin-top: 26vh;}
+    77.5% { margin-left: 11.5vw; margin-top: 25vh;}
+    78.5% { margin-left: 12,4vw; margin-top: 28vh;}
+    100% { margin-left:14vw; margin-top: 50vh;}
+}
+.move2 {
+    position: fixed;
+    width: 15vw;
+    height: 60vh;
+    animation: move2 5s linear forwards;
+}
+@keyframes move2 {
+    0% { transform: translate(83vw, 35vh); }
+      100% { transform: translate(50vw, 35vh); }
+}
+.leg5 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg5 5s linear forwards; 
+    margin-left: 5vw; 
+    margin-top: 20vh;
+}
+.leg5 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg5 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg5 {
+    0% { transform: rotate(-10deg);}
+    20% { transform: rotate(35deg);}
+    40% { transform: rotate(-10deg);}
+    60% {transform: rotate(35deg)}
+    80% { transform: rotate(-10deg);;}
+    100% {  transform: rotate(-0deg);}
+}
+.leg6 {
+    position: fixed;
+    width: 4vw;
+    height: 23vh;
+    animation: leg6 5s linear forwards; 
+    margin-left: 6vw; 
+    margin-top: 20vh;
+}
+.leg6 > div {
+    width: 4vw;
+    height: 11vh;
+}
+.leg6 > section {
+    width: 4vw;
+    height: 12vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+    margin-left: 1vh;
+}
+@keyframes leg6 {
+    0% { transform: rotate(35deg);}
+    20% { transform: rotate(-15deg);}
+    40% { transform: rotate(35deg);}
+    60% {transform: rotate(-15deg);}
+    80% { transform: rotate(35deg);}
+    100% {  transform: rotate(0deg);}
+}
+.leg7 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg7 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+.leg7 > div {
+    width: 4vw;
+    height: 14vh;
+}
+.leg7 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(75, 55, 18);
+    border-radius: 20%;
+}
+@keyframes leg7 {
+    0% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    20% { transform: rotate(30deg); margin-left: 2.6vw; margin-top: 24vh;}
+    40% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    60% {transform: rotate(30deg); margin-left: 2.6vw; margin-top: 24vh;}
+    80% { transform: rotate(-30deg); margin-left: 5.5vw; margin-top: 25vh;}
+    100% {  transform: rotate(-0deg); margin-left: 5.5vw; margin-top: 24vh;}
+}
+.leg8 {
+    width: 3vw;
+    height: 30vh;
+    position: fixed;
+    animation: leg8 5s linear forwards; 
+    margin-top: 25vh;
+    margin-left: 7vw;
+}
+.leg8 > div {
+    width: 3vw;
+    height: 14vh;
+}
+.leg8 > section {
+    width: 3vw;
+    height: 16vh;
+    background-color: rgb(53, 39, 12);
+    border-radius: 20%;
+}
+@keyframes leg8 {
+    0% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    20% { transform: rotate(-30deg); margin-left: 7.5vw; margin-top: 25vh;}
+    40% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    60% {transform: rotate(-30deg); margin-left: 7.5vw; margin-top: 25vh;}
+    80% { transform: rotate(30deg); margin-left: 4vw; margin-top: 24vh;}
+    100% {  transform: rotate(-0deg); margin-left: 7vw; margin-top: 25vh;}
+}
+.body2 {
+    position: fixed;
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(9, 9, 110);
+    margin-left: 4.3vw;
+    border-radius: 20%;
+    margin-top: 13svh;
+}
+.head2 {
+    position: fixed;
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(219, 198, 153);
+    margin-left: 5.25vw;
+    margin-top: 3.5vh;
+    border-radius: 40%;
+    overflow: hidden;
+}
+.head2 > div {
+    width: 5vw;
+    height: 4vh;
+    background-color: rgb(46, 41, 37);
+}
+.arm3 {
+    position: fixed;
+    width: 1.5vw;
+    height: 15vh;
+    animation: arm3 8s linear forwards; 
+    margin-top: 9vh;
+    margin-left: 6.7vw;
+}
+@keyframes arm3 {
+    0% { transform: rotate(-10deg); }
+    12.5% { transform: rotate(20deg); }
+    25% { transform: rotate(-10deg); }
+    37.5% { transform: rotate(20deg); }
+    50% { transform: rotate(-10deg); }
+    62.5% { transform: rotate(20deg); }
+    72.5% { transform: rotate(0deg); }
+    77.5% { transform: rotate(20deg); }
+    82.5% { transform: rotate(0deg); }
+    90.5% { transform: rotate(120deg); }
+    96.5% { transform: rotate(120deg); }
+    100% { transform: rotate(100deg); }
+}
+.arm3 > div {
+    width: 3vw;
+    height: 7vh;
+}
+.arm3 > section {
+    width: 3vw;
+    height: 8vh;
+    background-color: rgb(18, 30, 67);
+    border-radius: 20%;
+}
+.arm4 {
+    position: fixed;
+    width: 1.5vw;
+    height: 20vh;
+    animation: arm4 8s linear forwards; 
+    margin-top: 11vh;
+    margin-left: 6.7vw;
+}
+.arm4 > div {
+    width: 3vw;
+    height: 9vh;
+}
+.arm4 > section {
+    width: 3vw;
+    height: 11vh;
+    background-color:rgb(18, 30, 67);
+    border-radius: 20%;
+}
+@keyframes arm4 {
+    0% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    12.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    25% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    37.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    50% { transform: rotate(-0deg); margin-left: 7.5vw; margin-top: 14vh}
+    62.5% { transform: rotate(30deg); margin-left: 5.5vw; margin-top: 13vh}
+    72.5% { transform: rotate(0deg); margin-left: 6.5vw; margin-top: 13.5vh}
+    77.5% { transform: rotate(30deg); margin-left: 5vw; margin-top: 12vh}
+    82.5% { transform: rotate(0deg); margin-left: 6vw; margin-top: 12vh}
+    90.5% { transform: rotate(120deg); margin-left: 4vw; margin-top: 6vh}
+    92.5% { transform: rotate(180deg); margin-left: 5vw; margin-top: 3vh}
+    100% { transform: rotate(140deg); margin-left: 4vw; margin-top: 5.5vh}
+}
+.trash2 {
+    position: fixed;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: gray;
+    animation: trash2 8s linear forwards; 
+}
+@keyframes trash2 {
+    0% { margin-left: 6.5vw; margin-top: 28vh;}
+    12.5% { margin-left: 4vw; margin-top: 26vh;}
+    25% { margin-left: 6.5vw; margin-top: 28vh;}
+    37.5%{ margin-left: 4vw; margin-top: 26vh;}
+    50% { margin-left: 6.5vw; margin-top: 28vh;}
+    62.5% { margin-left: 4vw; margin-top: 28vh;}
+    72.5%  { margin-left: 7vw; margin-top: 28vh;}
+    74.5%  { margin-left: 4vw; margin-top: 26vh;}
+    77.5% { margin-left: 3vw; margin-top: 25vh;}
+    78.5% { margin-left: 2vw; margin-top: 28vh;}
+    100% { margin-left: -2vw; margin-top: 50vh;}
+}
+.trash3 {
+    width: 7vw;
+    height: 20vh;
+    background-color: rgb(172, 170, 170);
+    position: fixed;
+    margin-left: 47vw;
+    margin-top: 78vh;
+    border-radius: 0% 0% 30% 30%;
+}
+.cir1 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s;
+    animation-delay: 8s;
+    transform: scale(0);
+}   
+@keyframes cir1 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.cir2 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(0, 0, 0);
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s ;
+    animation-delay: 8.15s;
+    transform: scale(0);
+}   
+@keyframes cir2 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.cir3 {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 48vw;
+    margin-top: 35vh;
+    border-radius: 100%;
+    animation: cir1 0.75s ;
+    animation-delay: 8.3s;
+    transform: scale(0);
+}   
+@keyframes cir3 {
+    0% { transform: scale(0);}
+    100% { transform: scale(1);}
+}
+.section6 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+a {
+    display: block;
+    width: 15vw;
+    height: 15vh;
+    margin-left: 43vw;
+    background-color: orange;
+    border-radius: 40%;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 15vh;
+    text-align: center;
+    transition: 0.3s;
+    animation: a 1.5s forwards;
+    animation-delay: 8.2s;
+    margin-top: -15vh;
+}
+a:hover {
+    background-color: rgb(41, 27, 0);
+    color: beige;
+}
+@keyframes a {
+    0% {transform: translate(0vw, 0vh);}
+    60% {transform: translate(0vw, 50vh);}
+    100% {transform: translate(0vw, 30vh);}
+}
